@@ -124,8 +124,7 @@ form .field input:focus::placeholder {
 
 .react-chatbot-kit-chat-btn-send {
   background-color: orange !important;
-  border-radius: 0 !important;
-  border-radius: 20px !important;
+  border-radius: 5px !important;
 }
 
 .react-chatbot-kit-chat-input-form {
@@ -143,7 +142,7 @@ form .field input:focus::placeholder {
   background-color: white !important;
   color: #515365;
   box-shadow: 15px -7px 26px -5px rgba(0, 0, 0, 0.6);
-  border-radius: 20px !important;
+  border-radius: 5px !important;
 }
 
 .react-chatbot-kit-chat-input::placeholder {
