@@ -8,3 +8,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Add
 - [x] Add ChatBot
 - [x] Integrate OpenAi
+- [x] Add chat bot styles

@@ -111,12 +111,12 @@ form .field input:focus::placeholder {
 .react-chatbot-kit-chat-bot-message {
   width: auto;
   margin-left: inherit;
-  font-weight: 500;
 }
 .react-chatbot-kit-chat-bot-message,
 .react-chatbot-kit-user-chat-message {
   text-wrap: wrap;
   width: 100% !important;
+  color: rgb(20, 21, 79) !important;
 }
 
 .react-chatbot-kit-chat-input-container {
