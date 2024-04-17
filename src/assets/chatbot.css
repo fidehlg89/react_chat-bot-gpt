@@ -68,10 +68,18 @@ form .field input:focus::placeholder {
 }
 
 .react-chatbot-kit-chat-header {
+  background-color: #515365 !important;
   color: #ffffff !important;
   font-weight: 500 !important;
   font-size: 20px !important;
-  background: #4070f4 !important;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+
+  text-wrap: wrap;
+  text-align: center;
+
+  padding: 10px !important;
 }
 .react-chatbot-kit-chat-btn-send {
   background: #4070f4 !important;
@@ -87,7 +95,11 @@ form .field input:focus::placeholder {
 }
 
 /* New CSS */
+
 .react-chatbot-kit-chat-message-container {
+  border: 1px solid #515365;
+  background-color: #515365;
+  padding: 10px !important;
 }
 
 .react-chatbot-kit-chat-container {
@@ -97,29 +109,22 @@ form .field input:focus::placeholder {
   }
 }
 .react-chatbot-kit-chat-bot-message {
-  background-color: #376b7e;
   width: auto;
   margin-left: inherit;
+  font-weight: 500;
 }
 .react-chatbot-kit-chat-bot-message,
 .react-chatbot-kit-user-chat-message {
   text-wrap: wrap;
   width: 100% !important;
 }
-.react-chatbot-kit-chat-header {
-  text-wrap: wrap;
-  text-align: center;
-}
+
 .react-chatbot-kit-chat-input-container {
-  position: relative;
+  position: relative !important;
 }
 
 .react-chatbot-kit-chat-message-container form .grid {
   grid-template-columns: auto;
-}
-
-.react-chatbot-kit-chat-header {
-  background-color: #515365 !important;
 }
 
 .react-chatbot-kit-chat-btn-send {
@@ -132,6 +137,7 @@ form .field input:focus::placeholder {
   gap: 5px;
   padding: 10px;
   background-color: #515365;
+  border: 1px solid white;
 }
 
 .react-chatbot-kit-chat-input-form input:focus {
