@@ -34,7 +34,7 @@ class ActionProvider {
   }
 
   callOpenAI = async (userInput) => {
-    const thinkingMessage = this.createChatBotMessage("Procesing...");
+    const thinkingMessage = this.createChatBotMessage("Processing...");
     this.updateChatbotState(thinkingMessage);
 
     try {
