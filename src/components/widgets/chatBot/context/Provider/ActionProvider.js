@@ -39,11 +39,10 @@ class ActionProvider {
 
     try {
       const response = await openai.chat.completions.create({
-        model: "gpt-4",
+        model: "gpt-4-0613",
         messages: [{ role: "user", content: userInput }],
         stream: false,
       });
-      console.log("🚀 ~ ActionProvider ~ callOpenAI= ~ response:", response);
 
       const message = response.choices[0].message;
 
