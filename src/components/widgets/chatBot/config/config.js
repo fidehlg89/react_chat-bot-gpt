@@ -13,6 +13,14 @@ var config = {
       }
     ),
   ],
+  customStyles: {
+    botMessageBox: {
+      backgroundColor: "orange",
+    },
+    chatButton: {
+      backgroundColor: "orange",
+    },
+  },
 
   widgets: ChatStruct.addAllWidgets(),
 };
