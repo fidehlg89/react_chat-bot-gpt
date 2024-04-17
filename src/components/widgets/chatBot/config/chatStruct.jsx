@@ -8,12 +8,12 @@ class ChatStruct {
     return arrWidget;
   }
 
-  static createServicesWidget(arrWidget) {
-    arrWidget.push({
-      widgetName: Constants.SERVICES_WIDGET_NAME,
-      widgetFunc: (props) => <>{Constants.HELLO_MSG}</>,
-    });
-  }
+  // static createServicesWidget(arrWidget) {
+  //   arrWidget.push({
+  //     widgetName: "",
+  //     widgetFunc: (props) => <>{Constants.HELLO_MSG}</>,
+  //   });
+  // }
 }
 
 export default ChatStruct;
