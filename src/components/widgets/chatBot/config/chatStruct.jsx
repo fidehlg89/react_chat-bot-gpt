@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Constants from "../utils/Constants";
 
 class ChatStruct {
