@@ -49,10 +49,16 @@ class ActionProvider {
       const chatMessage = this.createChatBotMessage(message.content);
       this.updateChatbotState(chatMessage);
     } catch (error) {
-      this.handleNotFoundResponse();
+      console.log("🚀 ~ ActionProvider ~ callOpenAI= ~ error:", error);
+      // const errorMsg = this.createChatBotMessage(
+      //   `We encountred an Error and we think if you are from bloqued regions, please use VPN to use Open AI. For more help type "contact" to more assistance`
+      // );
+      const errorMsg = this.createChatBotMessage(
+        `We encountered an error and we think it may be because you are in a region where our service is not available. Please consider using a VPN to access OpenAI.`
+      );
+      this.updateChatbotState(errorMsg);
     }
   };
-
 }
 
 export default ActionProvider;
