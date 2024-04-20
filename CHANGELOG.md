@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [x] Add chat bot styles
 
 ### Tests
-- [x] Test chatbot interaction, request and responses
+- [x] Test chatbot interaction, request and ai assistan responses
