@@ -39,7 +39,7 @@ class ActionProvider {
 
     try {
       const response = await openai.chat.completions.create({
-        model: "gpt-4-0613",
+        model: "gpt-5.2",
         messages: [{ role: "user", content: userInput }],
         stream: false,
       });

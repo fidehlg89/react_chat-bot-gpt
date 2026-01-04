@@ -100,6 +100,7 @@ form .field input:focus::placeholder {
 }
 
 .react-chatbot-kit-chat-message-container {
+  overflow: auto !important;
   height: calc(100% - 150px) !important;
   border: 1px solid #515365;
   background-color: #515365;
